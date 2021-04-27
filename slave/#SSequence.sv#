@@ -1,0 +1,47 @@
+`ifndef SSequence
+class SSequence extends uvm_sequence#(STransaction)
+   `uvm_object_utils(SSequence)
+
+
+   function new(string name = "SSequence");
+      super.new(name);
+   endfunction // new
+
+
+
+   virtual task body();
+     begin
+
+
+     end
+   endtask // body
+
+
+endclass // SSequence
+
+`endif //  `ifndef SSequence
+
+
+
+
+class main_sequence extends uvm_sequence#(STransaction)
+   `uvm_object_utils(SSequence)
+
+
+   function new(string name = "SSequence");
+      super.new(name);
+   endfunction // new
+
+
+
+   virtual task body();
+     begin
+
+
+     end
+   endtask // body
+
+
+endclass // SSequence
+
+`endif

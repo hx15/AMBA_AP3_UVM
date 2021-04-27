@@ -1,0 +1,9 @@
+`define ADDR_WIDTH 16
+`define PWDATA_WIDTH 16
+`define PSEL_WIDTH 1
+`define PRDATA_WIDTH 16
+`ifndef types
+`define types
+
+`endif
+

@@ -1,0 +1,21 @@
+`ifndef cfg
+ `define cfg
+
+class apb_slave_config extends uvm_object;
+
+   `uvm_object_utils(apb_config)
+
+   string name;
+   rand
+   
+
+endclass // apb_config
+
+
+
+
+
+`endif
+
+
+
